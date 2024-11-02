@@ -1,4 +1,4 @@
-/* Reset default margin and padding */
+Reset default margin and padding
 * {
     padding: 0;
     margin: 0;
@@ -108,4 +108,39 @@ nav {
     color: white;
      /* Red for No */
 }
+@media (max-width: 700px) {
+    nav {
+        font-size: 18px;
+        padding: 0 8px;
+        height: 50px;
+    }
+    
+    .group input {
+        width: 100%; /* Make input full width */
+        font-size: 20px;
+        padding: 8px;
+    }
+    
+    .headi h1 {
+        font-size: 20px;
+    }
+    
+    .btn button {
+        width: 120px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .game-area {
+        font-size: 13px;
+        margin-top: 30px;
+    }
+
+    #yes, #no {
+        width: 80px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
+
 
